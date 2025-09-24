@@ -1,6 +1,6 @@
 {
   "name": "universal-file-client",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Universal file transfer client with unified interface for FTP, SFTP, and HTTP protocols",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -37,7 +37,8 @@
   "dependencies": {
     "axios": "^1.4.0",
     "basic-ftp": "^5.0.5",
-    "ssh2-sftp-client": "^10.0.3"
+    "ssh2-sftp-client": "^10.0.3",
+    "universal-file-client": "^1.0.0"
   },
   "devDependencies": {
     "@types/jest": "^28.1.8",
@@ -53,6 +54,8 @@
   "jest": {
     "preset": "ts-jest",
     "testEnvironment": "node",
-    "testMatch": ["**/src/**/*.test.ts"]
+    "testMatch": [
+      "**/src/**/*.test.ts"
+    ]
   }
 }

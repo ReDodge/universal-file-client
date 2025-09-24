@@ -90,7 +90,6 @@ interface ConnectionConfig {
   port?: number;                   // Custom port (defaults: FTP=21, SFTP=22, HTTP=80/443)
   secure?: boolean;                // Force secure connection
   directoryPath?: string;          // Initial directory to navigate to
-  sellerSFTPDirectory?: string;    // Legacy SFTP directory option
   timeout?: number;                // Connection timeout in milliseconds
 }
 ```

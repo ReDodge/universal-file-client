@@ -5,7 +5,6 @@ export interface ConnectionConfig {
   port?: number;
   secure?: boolean;
   directoryPath?: string;
-  sellerSFTPDirectory?: string;
   timeout?: number;
 }
 

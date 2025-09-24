@@ -37,12 +37,6 @@ export class FtpAdapter implements ProtocolAdapter {
       if (config.directoryPath && config.directoryPath.trim() !== '') {
         await this.client.cd(config.directoryPath);
       }
-
-      if (config.sellerSFTPDirectory && config.sellerSFTPDirectory.trim() !== '') {
-        if (!config.sellerSFTPDirectory.endsWith(`/${normalizedHost}`)) {
-          await this.client.cd(config.sellerSFTPDirectory);
-        }
-      }
     } catch (error: any) {
       this.isConnected = false;
       throw new Error(`FTP connection failed: ${error.message}`);
