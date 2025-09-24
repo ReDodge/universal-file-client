@@ -1,4 +1,4 @@
-# @universal-file/client
+# universal-file-client
 
 A universal file transfer client with unified interface for FTP, SFTP, and HTTP protocols.
 
@@ -15,13 +15,13 @@ A universal file transfer client with unified interface for FTP, SFTP, and HTTP 
 ## Installation
 
 ```bash
-npm install @universal-file/client
+npm install universal-file-client
 ```
 
 ## Quick Start
 
 ```typescript
-import { UniversalFileClient } from '@universal-file/client';
+import { UniversalFileClient } from 'universal-file-client';
 
 const client = new UniversalFileClient();
 

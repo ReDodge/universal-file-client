@@ -1,5 +1,5 @@
 {
-  "name": "@universal-file/client",
+  "name": "universal-file-client",
   "version": "1.0.0",
   "description": "Universal file transfer client with unified interface for FTP, SFTP, and HTTP protocols",
   "main": "dist/index.js",
