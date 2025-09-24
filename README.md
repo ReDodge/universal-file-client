@@ -1,5 +1,10 @@
 # universal-file-client
 
+[![npm version](https://badge.fury.io/js/universal-file-client.svg)](https://www.npmjs.com/package/universal-file-client)
+[![npm downloads](https://img.shields.io/npm/dm/universal-file-client.svg)](https://www.npmjs.com/package/universal-file-client)
+[![GitHub license](https://img.shields.io/github/license/ReDodge/universal-file-client.svg)](https://github.com/ReDodge/universal-file-client/blob/main/LICENSE)
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+
 A universal file transfer client with unified interface for FTP, SFTP, and HTTP protocols.
 
 ## Features
